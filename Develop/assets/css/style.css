@@ -98,15 +98,15 @@ p {
     text-align: center;
 }
 
-/* Consolodated CSS Rule to apply to all three on one line*/
+/* Consolodated CSS Rules to apply to all three on one line*/
 .benefit-lead img,.benefit-brand img,.benefit-cost img   {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.search-engine-optimization {
+/* Consolodated CSS Rules to apply to all three on one line*/
+.search-engine-optimization,.online-reputation-management,.social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -115,50 +115,20 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Consolodated CSS Rule to apply to all three images.*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
+/* Consolodated CSS Rule to apply to all three h2 headings using the content id*/
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* took out period class identifier */
 footer {
@@ -171,3 +141,17 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Tablets - Adjusted sizing*/
+@media screen and (max-width: 992px) {
+  
+  }
+  
+  /* Large smartphones - Adjusted Sizing */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  /* Small smartphones Adjusted Sizing */
+  @media screen and (max-width: 576px) {
+   
+  }
