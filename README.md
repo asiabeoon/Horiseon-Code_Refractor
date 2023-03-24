@@ -14,7 +14,7 @@ N/A
 Below is a screenshot of the Horiseon Website
 
 
-![alt text](assets/images/screenshot.png)
+![Screenshot](./assets/images/screencapture-Horiseon.png)
 
 
 ## License
